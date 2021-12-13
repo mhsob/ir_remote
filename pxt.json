@@ -1,5 +1,5 @@
 {
-    "name": "pxt-ir-calliope-manni",
+    "name": "pxt-ir-manni",
     "version": "0.0.6",
     "description": "",
     "dependencies": {
@@ -13,6 +13,5 @@
     "testFiles": [
         "test.ts"
     ],
-    "public": false,
-    "_installedVersion": "workspace:9b07e01e-8907-4dba-cf59-d37bed79437e"
+    "public": false
 }
