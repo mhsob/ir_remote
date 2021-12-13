@@ -3,7 +3,7 @@
 // MIT License
 // Changes for Calliope Mini by M. Klein
 //
-//% weight=0 color=#87bc4b icon="\uf1eb" block="Infrarot IR"
+//% weight=0 color=#87bc4b icon="\uf1eb" block="Manni IR"
 namespace IR {
     export enum encodingType {
         //% block="NEC"
@@ -193,7 +193,7 @@ namespace IR {
         received = false
     }
 
-    control.inBackground(function () {
+  //  control.inBackground(function () {
         basic.forever(function () {
             if ((!received) && (rec_init)) {
                 if (arr.length > 20) {
@@ -209,7 +209,7 @@ namespace IR {
                 }
             }
         })
-    })
+//    })
 
     function decodeIR() {
         let addr = 0
